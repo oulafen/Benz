@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>PMC432</title>
+        <link href="files/bootstrap.css" rel="stylesheet" media="screen">
+        <link href="files/index.css" rel="stylesheet" media="screen">
+        <link href="files/android.css" rel="stylesheet" media="screen">
+        <link href="files/flat-ui.css" rel="stylesheet" media="screen">
+        <script type="text/javascript" src="files/jquery-2.js"></script>
+        <script type="text/javascript" src="files/underscore-min.js"></script>
+        <script type="text/javascript" src="src/pmc432.js"></script>
+    </head>
+    <body>
+        <div class="banner">
+            <h1>Machine Status - PMC432</h1>
+        </div>
+        <div class="container">
+            <div class="underlist-area">
+                <p>操作员</p>
+                <form>
+                    <select name="people" id="underlist-people">
+                        <option value="张三">张三</option>
+                        <option value="李四">李四</option>
+                        <option value="王五">王五</option>
+                        <option value="赵六">赵六</option>                        
+                    </select>
+                </form>
+                <div class="photoarea">
+                    <img src="img/monkey.jpg">
+                </div>                
+            </div>
+            <div class="board">
+                <div class="time-board" id="board-top">
+                    <p>总时间</p>
+                    <input class="add-time" type="text" value=""></input>
+                </div>
+            </div>
+            <div class="underlist-group">
+                <form id="first-underlist">
+                    <select name="time" id="first-underlist-select">
+                        <option id="time1" value="5">5min</option>
+                        <option id="time2" value="10">10min</option>
+                        <option id="time3" value="15">15min</option>
+                        <option id="time4" value="20">20min</option>                        
+                    </select>
+                    <input class="small-textarea" type="text" value="1" id="first-underlist-input"></input>
+                </form>
+                
+                <form id="second-underlist">
+                    <select name="time" id="second-underlist-select">
+                        <option id="time1" value="5">5min</option>
+                        <option id="time2" value="10">10min</option>
+                        <option id="time3" value="15">15min</option>
+                        <option id="time4" value="20">20min</option>                        
+                    </select>
+                    <input class="small-textarea" type="text" value="1" id="second-underlist-input"></input>
+                </form>
+                <form id="third-underlist">
+                    <select name="time" id="third-underlist-select">
+                        <option id="time1" value="5">5min</option>
+                        <option id="time2" value="10">10min</option>
+                        <option id="time3" value="15">15min</option>
+                        <option id="time4" value="20">20min</option>                        
+                    </select>
+                    <input class="small-textarea" type="text" value="1" id="third-underlist-input"></input>
+                </form>
+                <form id="forth-underlist">
+                    <select name="time" id="forth-underlist-select">
+                        <option id="time1" value="5">5min</option>
+                        <option id="time2" value="10">10min</option>
+                        <option id="time3" value="15">15min</option>
+                        <option id="time4" value="20">20min</option>                        
+                    </select>
+                    <input class="small-textarea" type="text" value="1" id="forth-underlist-input"></input>
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <div class="board">
+                <div class="time-board" id="board-bottom">
+                    <p>倒计时</p>
+                    <input class="add-time" type="text" value=""></input>
+                </div>
+            </div>
+            <div class="underlist-group">
+                <form id="fifth-underlist">
+                    <select name="time" id="fifth-underlist-select">
+                        <option id="time1" value="5">5min</option>
+                        <option id="time2" value="10">10min</option>
+                        <option id="time3" value="15">15min</option>
+                        <option id="time4" value="20">20min</option>                        
+                    </select>
+                    <input class="small-textarea" type="text" value="1" id="fifth-underlist-input"></input>
+                </form>
+                <button id="button" class="btn btn-4" style="width: 270px">确定</button>
+            </div>
+        </div>
+    </body>
+    <script>
+        $("#button").click(function(){
+            count_all_time();
+        })
+        </script>
+</html>

@@ -1,0 +1,135 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+.banner{
+    width:100%;
+    height:100px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: corporate_a_cond_proregular;
+    color: gray;
+    font-size: 50px;
+    padding: 10px 0 0;
+}
+
+.container{
+    width: 1024px;
+    height: 200px;
+    padding: 0px 20px 0px 20px;
+}
+
+.container .cmm{
+    width: 33.3333%;
+    height: 200px;
+    float: left;
+    padding: 0px 20px 0px 20px;
+}
+
+.cmm h2{
+    color: white;
+    padding: 60px 0 0;
+}
+
+.bottom-content h2{
+    color: white;
+    padding: 45px 0 0;
+}
+
+.btn-block{
+    height:200px;
+    width: 288px;
+    background-color: gray;
+    text-align: center;
+}
+
+.container .bottom-content{
+    width:120px;
+    height: 200px;
+    float: right;
+    padding: 0px 10px 0px 10px;
+}
+
+.btn-bottom{
+    height: 180px;
+    width: 100px;
+}
+
+.bottom-part{
+    width: 100%;
+    height: 300px;
+}
+
+.big-container{
+    width: 1024px;
+    height: 400px;
+    padding: 0px 20px 0px 20px;
+}
+
+.underlist-area{
+    width: 200px;
+    height: 300px;
+    float: right;
+    padding: 0px 20px 0px 5px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.photoarea{
+    width: 125px;
+    height: 180px;
+    float: right;
+    background-color: black;
+}
+
+.board{
+    width: 440px;
+    height: 290px;
+    float: left;
+}
+
+.board .time-board{
+    width: 440px;
+    height: 250px;
+    float: left;
+/*
+    background-color: gray;
+*/
+    border: 1px solid gray;
+    padding: 20px 0px 20px 0px;
+}
+
+.underlist-group{
+    width: 320px;
+    height: 250px;
+    float: left;
+    padding: 0px 20px 0px 20px;
+}
+
+.small-textarea{
+    height: 28px;
+    width: 50px;
+}
+
+.add-time{
+    height: 50px;
+    width: 200px;
+    padding: 0px 100px 0px 100px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 125px;
+}
+
+.time-board input{
+    
+}
+
+.time-board p{
+    text-align: center;
+}
